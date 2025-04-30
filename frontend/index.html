@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Todo App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <section id="task-form-section">
+      <h1>Todo App</h1>
+      <form id="create-task-form">
+        <label for="task-input">Enter a task:</label>
+        <input type="text" id="task-input" name="task" placeholder="e.g. Buy milk" required />
+        <button type="submit">Add Task</button>
+      </form>
+    </section>
+
+    <section id="tasks-section">
+      <ul id="task-list">
+        <!-- Tasks will be injected here -->
+      </ul>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
